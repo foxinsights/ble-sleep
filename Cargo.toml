@@ -91,3 +91,13 @@ codegen-units = 1     # LLVM can perform better optimizations using a single thr
 debug         = 2     # prefer slower builds but better debugging experience
 lto           = 'fat'
 opt-level     = 's'
+
+[patch.crates-io]
+esp-bootloader-esp-idf = { git = "https://github.com/esp-rs/esp-hal.git", rev = "784372b75bc6052c0511b465cd3eac418b76a760" }
+esp-hal = { git = "https://github.com/esp-rs/esp-hal.git", rev = "784372b75bc6052c0511b465cd3eac418b76a760" }
+esp-rtos = { git = "https://github.com/esp-rs/esp-hal.git", rev = "784372b75bc6052c0511b465cd3eac418b76a760" }
+esp-alloc = { git = "https://github.com/esp-rs/esp-hal.git", rev = "784372b75bc6052c0511b465cd3eac418b76a760" }
+esp-backtrace = { git = "https://github.com/esp-rs/esp-hal.git", rev = "784372b75bc6052c0511b465cd3eac418b76a760" }
+esp-println = { git = "https://github.com/esp-rs/esp-hal.git", rev = "784372b75bc6052c0511b465cd3eac418b76a760" }
+esp-radio = { git = "https://github.com/esp-rs/esp-hal.git", rev = "784372b75bc6052c0511b465cd3eac418b76a760" }
+esp-storage = { git = "https://github.com/esp-rs/esp-hal.git", rev = "784372b75bc6052c0511b465cd3eac418b76a760" }
